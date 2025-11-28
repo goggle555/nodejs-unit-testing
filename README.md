@@ -30,6 +30,9 @@ npm run test -- --run
 
 # カバレッジレポートの生成
 npm run coverage
+
+# カバレッジレポートをブラウザで見る
+npx vitest --ui
 ```
 
 ### コード品質
