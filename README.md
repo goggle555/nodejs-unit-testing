@@ -35,6 +35,17 @@ npm run coverage
 npx vitest --ui
 ```
 
+Bunでもテストを実行できます。
+Bunのほうが速いです。
+
+```bash
+# すべてのテストを実行
+bun test
+
+# カバレッジレポートの生成
+bun test --coverage
+```
+
 ### コード品質
 
 ```bash
